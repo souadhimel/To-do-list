@@ -13,9 +13,9 @@ else{
 
     const mainContainer=document.getElementById('table_container')
     const tableContainer=document.createElement('tr');
-    tableContainer.innerHTML=` <th className="text-center">${count}</th>
-    <td>${inputValue}</td>
-    <td><button className="btn btn-danger">Delete</button><button className="btn btn-primary ms-3">Done</button></td>`
+    tableContainer.innerHTML=` <th class="text-center">${count}</th>
+    <td class="text-center">${inputValue}</td>
+    <td class="text-center"><button class="btn btn-danger">Delete</button><button class="btn btn-primary ms-3">Done</button></td>`
     mainContainer.appendChild(tableContainer);
 
     document.getElementById('field_input').value=""
